@@ -12,8 +12,9 @@
 		32C5C3322842424900006102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C5C3302842424900006102 /* Main.storyboard */; };
 		32C5C3342842424A00006102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C5C3332842424A00006102 /* Assets.xcassets */; };
 		32C5C3372842424A00006102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C5C3352842424A00006102 /* LaunchScreen.storyboard */; };
-		32C5C3422842424A00006102 /* MirrorObjectExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5C3412842424A00006102 /* MirrorObjectExampleTests.swift */; };
 		32C5C35B2842457C00006102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5C35A2842457C00006102 /* SceneDelegate.swift */; };
+		32CA50632842484500176DEC /* InitialViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CA50622842484500176DEC /* InitialViewControllerTests.swift */; };
+		32CA5066284249E400176DEC /* MirrorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CA5065284249E400176DEC /* MirrorObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +36,9 @@
 		32C5C3362842424A00006102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32C5C3382842424A00006102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32C5C33D2842424A00006102 /* MirrorObjectExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirrorObjectExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		32C5C3412842424A00006102 /* MirrorObjectExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorObjectExampleTests.swift; sourceTree = "<group>"; };
 		32C5C35A2842457C00006102 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32CA50622842484500176DEC /* InitialViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewControllerTests.swift; sourceTree = "<group>"; };
+		32CA5065284249E400176DEC /* MirrorObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +94,18 @@
 		32C5C3402842424A00006102 /* MirrorObjectExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				32C5C3412842424A00006102 /* MirrorObjectExampleTests.swift */,
+				32CA5064284249D800176DEC /* Helpers */,
+				32CA50622842484500176DEC /* InitialViewControllerTests.swift */,
 			);
 			path = MirrorObjectExampleTests;
+			sourceTree = "<group>";
+		};
+		32CA5064284249D800176DEC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				32CA5065284249E400176DEC /* MirrorObject.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32C5C3422842424A00006102 /* MirrorObjectExampleTests.swift in Sources */,
+				32CA50632842484500176DEC /* InitialViewControllerTests.swift in Sources */,
+				32CA5066284249E400176DEC /* MirrorObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
